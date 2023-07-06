@@ -42,6 +42,21 @@ iframe#tela {
 
 }
 
-section#redes-sociais {
+section#redes-sociais > a > img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 7px black;
+}
 
+section#redes-sociais {
+    text-align: left;
+}
+
+section#redes-sociais img:hover {
+    border: 3px solid #ffffff;
+    transform: translate(-6px, -6px);
+    box-shadow: 5px 5px 10px white;  /*Recursos e detalhes "frescurinhas"*/
+    transition: transform .5s, border 1s;
 }
