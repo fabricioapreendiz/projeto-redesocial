@@ -32,6 +32,16 @@ section#celular {
 
 }
 
+iframe#tela {
+    position: relative;
+    top: 82px;
+    left: 23px;
+    width: 266px;
+    height: 468px;
+    border-radius: 5px;
+
+}
+
 section#redes-sociais {
 
 }
